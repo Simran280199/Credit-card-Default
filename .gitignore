@@ -1,0 +1,11 @@
+myenv28/
+__pycache__/
+*.ipynb
+*.csv
+*.zip
+*.egg-info/
+.env
+.DS_Store
+data/
+models/*.png
+credit_card_default_project/

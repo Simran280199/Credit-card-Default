@@ -1,0 +1,65 @@
+{
+  "feature_names": [
+    "LIMIT_BAL",
+    "SEX",
+    "EDUCATION",
+    "MARRIAGE",
+    "AGE",
+    "PAY_0",
+    "PAY_2",
+    "PAY_3",
+    "PAY_4",
+    "PAY_5",
+    "PAY_6",
+    "BILL_AMT1",
+    "BILL_AMT2",
+    "BILL_AMT3",
+    "BILL_AMT4",
+    "BILL_AMT5",
+    "BILL_AMT6",
+    "PAY_AMT1",
+    "PAY_AMT2",
+    "PAY_AMT3",
+    "PAY_AMT4",
+    "PAY_AMT5",
+    "PAY_AMT6"
+  ],
+  "model_name": "Random Forest",
+  "metrics": {
+    "accuracy": 0.7722,
+    "precision": 0.4864,
+    "recall": 0.5411,
+    "f1": 0.5123,
+    "roc_auc": 0.757
+  },
+  "all_results": {
+    "Logistic Regression": {
+      "accuracy": 0.6898,
+      "precision": 0.3714,
+      "recall": 0.581,
+      "f1": 0.4531,
+      "roc_auc": 0.6914
+    },
+    "Decision Tree": {
+      "accuracy": 0.7323,
+      "precision": 0.4211,
+      "recall": 0.5614,
+      "f1": 0.4813,
+      "roc_auc": 0.7188
+    },
+    "Random Forest": {
+      "accuracy": 0.7722,
+      "precision": 0.4864,
+      "recall": 0.5411,
+      "f1": 0.5123,
+      "roc_auc": 0.757
+    },
+    "Gradient Boosting": {
+      "accuracy": 0.7555,
+      "precision": 0.4568,
+      "recall": 0.5576,
+      "f1": 0.5022,
+      "roc_auc": 0.7442
+    }
+  }
+}
